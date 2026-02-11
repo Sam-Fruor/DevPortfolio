@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Sameer Khan</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-flex">
+        <h1 class="logo">Sameer<span class="highlight">.Dev</span></h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="theme-switch">
+                <i class="fas fa-moon" id="theme-icon" title="Toggle Theme"></i>
+            </li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page-content">
+      <section class="projects-hero fade-in-up">
+        <h2>Building <span class="text-gradient">Scalable Systems.</span></h2>
+        <p class="intro-text">
+          From native Android apps to real-time web dashboards. Here is a deep
+          dive into my technical implementations using
+          <strong>Java, Supabase, and React</strong>.
+        </p>
+      </section>
+
+      <section class="full-project-grid fade-in-up delay-1">
+        <div class="project-card large-card">
+          <div class="card-header">
+            <div class="card-icon"><i class="fab fa-android"></i></div>
+            <h3>Hostel Manager Ecosystem</h3>
+          </div>
+          <div class="tech-stack-row">
+            <span class="badge">Java</span>
+            <span class="badge">Android SDK</span>
+            <span class="badge">Supabase</span>
+            <span class="badge">REST API</span>
+          </div>
+          <p>
+            A comprehensive management solution designed to solve real-world
+            occupancy issues. The system syncs a
+            <strong>Native Android App</strong> (for wardens) with a
+            <strong>Web Dashboard</strong> (for admins).
+          </p>
+          <ul class="feature-list">
+            <li>
+              <i class="fas fa-check"></i> Real-time database synchronization
+              via Supabase.
+            </li>
+            <li>
+              <i class="fas fa-check"></i> Automated rent rollover and PDF
+              receipt generation.
+            </li>
+            <li>
+              <i class="fas fa-check"></i> Secure authentication and role-based
+              access control.
+            </li>
+          </ul>
+          <div class="card-actions">
+            <a
+              href="https://github.com/Sam-Fruor"
+              target="_blank"
+              class="btn primary-btn"
+              >View Source <i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="card-icon"><i class="fab fa-react"></i></div>
+          <h3>DwelDubai Consultancy</h3>
+          <p class="tech-tags">React • Tailwind • Vercel</p>
+          <p>
+            A high-performance platform facilitating relocations to UAE.
+            Features a dark-mode UI, dynamic routing for different visa types,
+            and client testimonial sections.
+          </p>
+          <a
+            href="https://github.com/Sam-Fruor"
+            target="_blank"
+            class="link-text"
+            >View Code &rarr;</a
+          >
+        </div>
+
+        <div class="project-card">
+          <div class="card-icon"><i class="fas fa-microchip"></i></div>
+          <h3>ProcSight Dashboard</h3>
+          <p class="tech-tags">Python • Flask • WebSockets</p>
+          <p>
+            A system monitoring tool that visualizes CPU and Memory usage in
+            real-time. Uses Python psutil for data fetching and Socket.io for
+            live frontend updates.
+          </p>
+          <a
+            href="https://github.com/Sam-Fruor"
+            target="_blank"
+            class="link-text"
+            >View Code &rarr;</a
+          >
+        </div>
+
+        <div class="project-card">
+          <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+          <h3>Skillora (SIH '25)</h3>
+          <p class="tech-tags">Gamification • EdTech • Web</p>
+          <p>
+            My Smart India Hackathon project. An educational gaming platform
+            that uses interactive animations to teach complex concepts to
+            students.
+          </p>
+          <a
+            href="https://github.com/Sam-Fruor"
+            target="_blank"
+            class="link-text"
+            >View Code &rarr;</a
+          >
+        </div>
+
+        <div class="project-card">
+          <div class="card-icon"><i class="fas fa-tshirt"></i></div>
+          <h3>LuxeThread</h3>
+          <p class="tech-tags">E-Commerce • HTML/CSS • JS</p>
+          <p>
+            A fully responsive fashion e-commerce frontend. Features a product
+            grid, shopping cart logic, and a modern brand identity design.
+          </p>
+          <a
+            href="https://github.com/Sam-Fruor"
+            target="_blank"
+            class="link-text"
+            >View Code &rarr;</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Sameer Khan. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sameer Khan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <h1 class="logo">Sameer<span class="highlight">.Dev</span></h1>
+            <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li class="theme-switch">
+                <i class="fas fa-moon" id="theme-icon" title="Toggle Theme"></i>
+            </li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+        </div>
+    </header>
+
+    <main class="container contact-wrapper">
+        
+        <section class="contact-info">
+            <h2>Let's discuss your <br> <span class="text-gradient">next project.</span></h2>
+            <p>I'm open to freelance opportunities and internships. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            
+            <div class="info-item">
+                <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                <div>
+                    <h4>Email</h4>
+                    <p>sameer1645khan@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+91-7007304393</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                    <h4>Location</h4>
+                    <p>Punjab, India</p>
+                </div>
+            </div>
+
+            <div class="social-row">
+                <a href="https://www.linkedin.com/in/samfruor/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Sam-Fruor" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+
+        <section class="contact-form-card">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn primary-btn full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sameer Khan. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
