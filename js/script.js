@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /* --- 3. TYPEWRITER EFFECT (Home Page) --- */
     const textElement = document.querySelector(".typewriter");
     if (textElement) {
-        const texts = ["Java Developer.", "Full Stack Engineer.", "Problem Solver."];
+        const texts = ["Java Developer.", "Full Stack Engineer.", "Problem Solver.", "Software Architect."];
         let count = 0;
         let index = 0;
         let currentText = "";
